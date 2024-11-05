@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+canvas {
+  border: 2px solid #d3d3d3;
+}
+
+#score {
+  position: absolute;
+  top: 15%;
+  right: 50%;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#restart {
+  position: absolute;
+  display: none;
+  background-color: rgb(255, 0, 0);
+  border: 2%;
+  border-color: black;
+  border-radius: 30px;
+  color: white;
+  height: 6%;
+  width: auto;
+}
+h1 {
+  position: fixed;
+  top: 30px;
+}
+
+h2 {
+  position: fixed;
+  bottom: 70px;
+}
